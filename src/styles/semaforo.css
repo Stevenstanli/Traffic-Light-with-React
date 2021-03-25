@@ -1,0 +1,73 @@
+@import "~bootstrap/scss/bootstrap.scss";
+body{
+    background-color: lightgreen;
+}
+.center1{
+    padding-top: 200px;
+}
+.trafficLight {
+    background-color: rgb(26, 24, 24);
+    width: 120px;
+    height: 300px;
+    margin-left: 50%;
+    padding: 16px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.redLight {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: red;
+    border: 3px solid black;
+}
+.orangeLight {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: orange;
+    border: 3px solid black;
+}
+.greenLight {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: green;
+    border: 3px solid black;
+}
+ .redLightActive {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: red;
+    border: 3px solid black;
+    box-shadow : 0px 0px 30px red;
+}
+.orangeLightActive {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: orange;
+    border: 3px solid black;
+    box-shadow : 0px 0px 30px orange;
+}
+.greenLightActive {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: green;
+    border: 3px solid black;
+    box-shadow : 0px 0px 30px green;
+}
